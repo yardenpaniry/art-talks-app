@@ -1,0 +1,26 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 5%;
+  justify-content: center;
+}
+.Gallery {
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.picture-card {
+  padding: 15px;
+  /* border: 1px black solid; */
+  width: 16%;
+  height: auto;
+  margin-bottom: 1%;
+  box-shadow: #00000030 1px 1px 9px;
+}
+
+img {
+  width: 100%;
+  height: 50%;
+}
